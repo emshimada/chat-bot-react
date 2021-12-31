@@ -16,7 +16,6 @@ function App() {
           messageParser = {MessageParser}
          />
       </div>
-
     </div>
   );
 }

@@ -9,8 +9,12 @@ class MessageParser {
       console.log(message)
       const lowercase = message.toLowerCase();
 
-      if(lowercase.includes("hello")){
+      if(lowercase.includes("olá")){
         this.actionProvider.greet();
+      }
+
+      if(lowercase.includes("dog")){
+        this.actionProvider.handleDog();
       }
     }
   }
